@@ -1,0 +1,1 @@
+Adds a function to play a sound using the Doppler Effect
