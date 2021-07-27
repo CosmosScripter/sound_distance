@@ -3,16 +3,19 @@ Sound distance mod [v1.0] by Cosmos
 This mod only adds a function, which plays a sound with a different gain depending on the distance to the sound origin.
 It can be used so players can know if they're either closer or further to the sound origin.
 
+Incase the sound source is moving, it has a pitch change if moving towards the player.
+
 How to use:
 
-sound_distance_play(pos, sound, sound_gain, distance)
+sound_distance_play(pos, sound, sound_gain, distance, moving, yaw)
 
 Example:
 
-sound_distance_play(self.object:get_pos(), "example_sound", 1, 16)
+sound_distance_play(self.object:get_pos(), "example_sound", 1, 16, true, self.object:get_yaw())
 ---------------------------------------------
 See: license.txt for license.
 
+Special thanks to Astrobe, as their feedback improved this mod.
 Special thanks to TenPlus1, as the "get_distance" function is from mobs redo.
 ---------------------------------------------
 Depends on: default.
