@@ -29,3 +29,6 @@ get_distance function (by TenPlus1):
 --------------------------------------------------------------------
 All the other code (by Cosmos) is licensed under LGPL-2.1
 Full license: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+
+All textures provided in this package are licensed under CC-BY-SA-4.0
+Full license: https://creativecommons.org/licenses/by-sa/4.0/legalcode
